@@ -1,6 +1,6 @@
 # molitorclay/container-lab Lab B Solution
 
-https://github.com/molitorclay/container-lab/tree/main/lab/B
+[https://github.com/molitorclay/container-lab/tree/main/lab/B](https://github.com/molitorclay/container-lab/tree/main/lab/B)
 
 ## Solution
 
