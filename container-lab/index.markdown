@@ -13,4 +13,6 @@ Do not read these if you want to avoid spoilers.
 ## Labs
 
 * Lab A: [PID and UTS Namespaces](/container-lab/lab-a/)
-* Lab B: [Mount Namespace and Root Filesystem Isolation](/container-lab/lab-b/)
+* Lab B: [Mount namespace and rootfs isolation](/container-lab/lab-b/)
+* Lab C: Network Namespaces - TODO
+* Lab D: OverlayFS + whiteouts - TODO

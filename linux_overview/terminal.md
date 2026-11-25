@@ -20,7 +20,7 @@ There are many, many types of shells available to Linux and macOS users, but sec
 * **busybox**: Busybox - Commonly used on OT devices and small microcontrollers, because it bundles many tools into built-in commands
 * **zsh**: Z Shell - The default shell on macOS hosts, so if you see this and aren't sure of the OS, it's likely an Apple device
 * **ash**: Almquist Shell
-* **dash**: 
+* **dash**: Debian Almquist Shell
 
 ## The Command Execution Process
 
