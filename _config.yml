@@ -33,7 +33,6 @@ plugins:
 
 header_pages:
   - about.markdown
-  - linux_overview/welcome.md
 
 exclude:
   - README.md
