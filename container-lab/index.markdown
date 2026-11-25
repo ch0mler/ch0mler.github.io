@@ -1,0 +1,16 @@
+---
+layout: page
+title: Container Lab Walkthroughs
+permalink: /container-lab/
+---
+
+Walkthroughs for molitorclay's [container-lab](https://github.com/molitorclay/container-lab)
+challenges, exploring how containers are built from Linux kernel features.
+
+**SPOILERS**: Each of the walkthroughs starts with the end solution and works up to it.
+Do not read these if you want to avoid spoilers.
+
+## Labs
+
+* Lab A: [PID and UTS Namespaces](/container-lab/lab-a/)
+* Lab B: [Mount Namespace and Root Filesystem Isolation](/container-lab/lab-b/)
