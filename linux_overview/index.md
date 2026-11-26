@@ -13,8 +13,8 @@ at Red Canary all the way back in the spring of 2020.
 I built this series of talks internally to help our detection engineering team 
 understand how Linux systems worked, what makes them different from equivalent 
 Windows systems, and how we could use those differences to improve detection coverage in this space.
-From this series of talks, I was able to pivot into a little-known product called (formerly) Cloud Workload Protection, or CWP,
-as one of the lead subject matter experts on building detection coverage for Linux and containerized apps.
+From this series of talks, I was able to pivot into a little-known product called (formerly) Cloud Workload Protection
+as one of the lead subject matter experts on Linux and containerized apps.
 
 ## Table of Contents
 

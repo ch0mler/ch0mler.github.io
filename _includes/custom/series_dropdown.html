@@ -7,7 +7,7 @@
     {% for p in pages %}
       <li>
         {% if p.url == page.url %}
-          <span aria-current="page">{{ p.weight }}. {{ p.title }} (current)</span>
+          <span aria-current="page">{{ p.weight }}. {{ p.title }}</span>
         {% else %}
           <a href="{{ p.url | relative_url }}">{{ p.weight }}. {{ p.title }}</a>
         {% endif %}

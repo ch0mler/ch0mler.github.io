@@ -9,7 +9,7 @@ series_index: true
 Not too long ago, I looked into how different classes of container escapes worked, and how to detect them using the [auditd framework](https://www.man7.org/linux/man-pages/man8/auditd.8.html).
 This series of posts covers the 4 main escape types I looked into: namespace modifications, SSH credential reuse, Docker socket abuse, and host volume mounts.
 
-Within each page, I've also included some basic `auditd` syscall monitoring rules,
+Within each page, I've also included some basic `auditd` syscall logs as examples,
 and some advice for paring down the huge volume of data you are likely 
 to see when casting a wide net like this. 
 
