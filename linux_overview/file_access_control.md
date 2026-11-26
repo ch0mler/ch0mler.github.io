@@ -1,7 +1,9 @@
 ---
-layout: page
-title: "3. File Access Control on Linux"
+layout: series
+title: File Access Control on Linux
 permalink: /linux-overview/file-access-control/
+series: Linux for Security Analysts
+weight: 3.0
 ---
 
 ## Overview
@@ -23,10 +25,3 @@ permalink: /linux-overview/file-access-control/
 ## Filesystem Permissions
 
 ## Practical Examples
-
----
-
-<footer>
-  <br>
-  <a href="/linux-overview/">Back to Linux for Security Analysts</a>
-</footer>

@@ -1,7 +1,9 @@
 ---
-layout: page
-title: "5. Local Linux Authentication"
+layout: series
+title: Local Linux Authentication
 permalink: /linux-overview/authentication/
+series: Linux for Security Analysts
+weight: 5.0
 ---
 
 ## Overview
@@ -27,10 +29,3 @@ permalink: /linux-overview/authentication/
 ## Special Logon Helpers
 
 ## Practical Examples
-
----
-
-<footer>
-  <br>
-  <a href="/linux-overview/">Back to Linux for Security Analysts</a>
-</footer>

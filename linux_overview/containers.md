@@ -1,7 +1,9 @@
 ---
-layout: page
-title: "7. Containers"
+layout: series
+title: Containers
 permalink: /linux-overview/containers/
+series: Linux for Security Analysts
+weight: 7.0
 ---
 
 ## Overview
@@ -126,10 +128,3 @@ We'll visualize a container escape using a generic escape sequence going through
 * [The container is a lie!](https://upsun.com/blog/the-container-is-a-lie/)
 * [cgroupv2](https://chrisdown.name/talks/cgroupv2/cgroupv2-fosdem.pdf)
 * [Audit, namespaces, and containers](https://lwn.net/Articles/699819/)
-
----
-
-<footer>
-  <br>
-  <a href="/linux-overview/">Back to Linux for Security Analysts</a>
-</footer>

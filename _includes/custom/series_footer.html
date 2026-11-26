@@ -1,0 +1,5 @@
+{% assign series_name = include.series | default: page.series %}
+<footer class="series-footer">
+  <a class="series-footer__back" href="{{ include.index_url | relative_url }}">Back to {{ series_name }}</a>
+  {% include custom/series_next.html series=series_name %}
+</footer>

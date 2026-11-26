@@ -1,7 +1,9 @@
 ---
-layout: page
-title: "6. Linux User Initialization"
+layout: series
+title: Linux User Initialization
 permalink: /linux-overview/user-initialization/
+series: Linux for Security Analysts
+weight: 6.0
 ---
 
 ## Overview
@@ -63,10 +65,3 @@ Have a backup system? Wait for the filesystem to show up to do backups.
 #### systemd
 
 #### Upstart
-
----
-
-<footer>
-  <br>
-  <a href="/linux-overview/">Back to Linux for Security Analysts</a>
-</footer>

@@ -1,0 +1,17 @@
+{% assign series_name = include.series | default: page.series %}
+{% assign pages = site.pages | where: "series", series_name | where_exp: "p", "p.series_index != true" | sort: "weight" %}
+
+<details class="series-dropdown">
+  <summary>Jump To</summary>
+  <ol class="series-dropdown__menu">
+    {% for p in pages %}
+      <li>
+        {% if p.url == page.url %}
+          <span aria-current="page">{{ p.weight }}. {{ p.title }} (current)</span>
+        {% else %}
+          <a href="{{ p.url | relative_url }}">{{ p.weight }}. {{ p.title }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</details>

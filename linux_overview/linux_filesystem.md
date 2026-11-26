@@ -1,7 +1,9 @@
 ---
-layout: page
-title: "2. The Linux Filesystem"
+layout: series
+title: The Linux Filesystem
 permalink: /linux-overview/linux-filesystem/
+series: Linux for Security Analysts
+weight: 2.0
 ---
 
 ## Overview
@@ -66,10 +68,3 @@ The operating system even provides detailed system information by exposing virtu
 My friend and former coworker Dave Bogle wrote an excellent deep dive into the Linux virtual filesystem, and what it means for defenders here:
 
 [https://www.zscaler.com/blogs/cybersecurity-best-practices/linux-vfs](https://www.zscaler.com/blogs/cybersecurity-best-practices/linux-vfs)
-
----
-
-<footer>
-  <br>
-  <a href="/linux-overview/">Back to Linux for Security Analysts</a>
-</footer>

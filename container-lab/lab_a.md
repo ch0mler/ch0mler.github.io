@@ -1,7 +1,9 @@
 ---
-layout: page
-title: "Container Lab A: PID and UTS Namespaces"
+layout: series
+title: PID and UTS Namespaces
 permalink: /container-lab/lab-a/
+series: Container Lab Walkthroughs
+weight: 1.0
 ---
 
 [https://github.com/molitorclay/container-lab/tree/main/lab/A](https://github.com/molitorclay/container-lab/tree/main/lab/A)

@@ -1,0 +1,108 @@
+---
+---
+@import "minima";
+
+.series-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.series-header .post-title {
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.series-dropdown {
+  position: relative;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  background-color: #f9fafb;
+}
+
+.series-dropdown summary {
+  cursor: pointer;
+  padding: 0.45rem 0.65rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.series-dropdown__menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 10;
+  width: min(20rem, calc(100vw - 2rem));
+  max-height: min(60vh, 30rem);
+  overflow-y: auto;
+  margin: 0.25rem 0 0;
+  padding: 0.35rem 0;
+  list-style: none;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  background-color: #f9fafb;
+  box-shadow: 0 2px 6px #0002;
+}
+
+.series-dropdown__menu a,
+.series-dropdown__menu span {
+  display: block;
+  padding: 0.4rem 0.75rem;
+}
+
+.series-dropdown__menu [aria-current="page"] {
+  background-color: #e5e7eb;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .series-header {
+    flex-wrap: wrap;
+  }
+
+  .series-header .post-title {
+    flex-basis: 100%;
+    font-size: clamp(1.75rem, 8vw, 2.25rem);
+  }
+
+  .series-header__navigation {
+    margin-left: auto;
+  }
+}
+
+.series-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+.series-footer__back,
+.series-footer__next {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  background-color: #f3f4f6;
+  color: #374151 !important;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.series-footer__back:hover,
+.series-footer__next:hover {
+  border-color: #9ca3af;
+  background-color: #e5e7eb;
+  color: #111827 !important;
+}
+
+.series-footer__back:focus-visible,
+.series-footer__next:focus-visible {
+  outline: 2px solid #6b7280;
+  outline-offset: 2px;
+}

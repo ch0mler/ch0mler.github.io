@@ -1,7 +1,9 @@
 ---
-layout: page
-title: "Container Lab B: Mount Namespace and Root Filesystem Isolation"
+layout: series
+title: Mount Namespace and Root Filesystem Isolation
 permalink: /container-lab/lab-b/
+series: Container Lab Walkthroughs
+weight: 2.0
 ---
 
 [https://github.com/molitorclay/container-lab/tree/main/lab/B](https://github.com/molitorclay/container-lab/tree/main/lab/B)

@@ -2,6 +2,8 @@
 layout: page
 title: Linux for Security Analysts
 permalink: /linux-overview/
+series: Linux for Security Analysts
+series_index: true
 ---
 
 Welcome to my multi-part series covering various aspects of the Linux kernel and related systems.

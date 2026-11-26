@@ -1,0 +1,9 @@
+{% assign series_name = include.series | default: page.series %}
+{% assign pages = site.pages | where: "series", series_name | where_exp: "p", "p.series_index != true" | sort: "weight" %}
+
+{% for p in pages %}
+  {% if p.weight > page.weight %}
+    <a class="series-footer__next" href="{{ p.url | relative_url }}">Next: {{ p.weight }}. {{ p.title }}</a>
+    {% break %}
+  {% endif %}
+{% endfor %}

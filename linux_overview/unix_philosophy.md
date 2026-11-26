@@ -1,10 +1,16 @@
 ---
-layout: page
-title: "1. The UNIX Philosophy"
+layout: series
+title: The UNIX Philosophy
 permalink: /linux-overview/unix-philosophy/
+series: Linux for Security Analysts
+weight: 1.0
 ---
 
-What is the UNIX Philosophy, and why should we care?
+# Overview
+
+* A Quick History of UNIX
+* What is the UNIX Philosophy?
+* Why should it matter to us?
 
 ## A Quick History
 
@@ -63,10 +69,3 @@ Breaking down each guideline separately, we can see:
 Hopefully this post adequately explains how the ideas that built UNIX decades ago are also relevant to modern cybersecurity folks.
 If you are responsible for protecting production servers or developer workstations, this information
 should help give you a few higher-level ideas to keep in mind while analyzing security logs or building detections.
-
----
-
-<footer>
-  <br>
-  <a href="/linux-overview/">Back to Linux for Security Analysts</a>
-</footer>

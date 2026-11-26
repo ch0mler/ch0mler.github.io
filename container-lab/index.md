@@ -2,6 +2,8 @@
 layout: page
 title: Container Lab Walkthroughs
 permalink: /container-lab/
+series: Container Lab Walkthroughs
+series_index: true
 ---
 
 Walkthroughs for molitorclay's [container-lab](https://github.com/molitorclay/container-lab)
