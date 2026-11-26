@@ -3,7 +3,7 @@ layout: series
 title: Docker Socket Abuse
 permalink: /container-escapes/docker-sockets
 series: Container Escapes
-weight: 3.0
+weight: 2.0
 ---
 
 ## Escaping the Container

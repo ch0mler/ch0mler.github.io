@@ -3,7 +3,7 @@ layout: series
 title: SSH Credential Reuse
 permalink: /container-escapes/ssh-cred-reuse
 series: Container Escapes
-weight: 2.0
+weight: 3.0
 ---
 
 ## Escaping the Container
